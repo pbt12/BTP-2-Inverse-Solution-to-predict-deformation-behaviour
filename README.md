@@ -1,4 +1,4 @@
-# Predicting the required Defromation Behaviour of materials for a stress-strain charecteristic Using XGBoost
+# Predicting the required defromation behaviour of material for a stress-strain charecteristic using XGBoost
 
 Previously in my work, I attempted to predict the stress-strain behaviour of material using their deformation properties, in this work I attempted to solve the inverse problem. Upon applying load on materials, it breaks. If we keep on applying load from zero till before it breaks, and then un-load (reduce the load gradually) we get the variation of strain with stress, and the material might not retain its original shape and it deforms to some extent. The 4 properties "Loading Plasticity Value",   "Unloading Plasticity",  "Coefficient Plasticity Depth",  "Coefficient Adhesion" of the materials tells us about the deformation of the material. 
 
